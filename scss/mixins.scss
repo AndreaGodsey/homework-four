@@ -1,0 +1,11 @@
+@mixin site-button($radius: 20px) {
+    background-color: #79ADDC;
+    padding: 11px 21px;
+    border-radius: $radius;
+    color: #fff;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 813px ;
+    margin-top: 37px;
+  }
