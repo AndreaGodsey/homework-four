@@ -44,3 +44,19 @@ nav {
 
    
 }
+
+
+@media screen and (max-width: 800px) {
+   nav {
+     display: flex;
+     justify-content: space-between;
+
+     .logo{
+   text-align: center;
+     }
+
+     .links{
+     margin-left: 20px;
+     }
+   }
+ }

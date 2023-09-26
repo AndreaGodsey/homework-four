@@ -2,9 +2,8 @@
     .hero{
         height: 400px;
         
-
     .Airplane{
-        background-image: url(../../images/Airplane.png);
+        background-image: url(../images/Airplane.png);
         width: 1280px;
         height: 500px;
     
@@ -18,9 +17,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
 
     .travelflytitle{
-        font-family: Inclusive-Sans;
+        font-family: Inclusive-Sans-Italic;
         font-style: normal;
         font-size: 60px;
         color: white;
@@ -37,17 +37,28 @@
 
         @font-face {
             font-family: Inclusive-Sans-Italic;
-            src: url(../../fonts/Inclusive_Sans/InclusiveSans-Italic.ttf);
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Italic.ttf);
         }
         }
 
         @font-face {
             font-family: Inclusive-Sans;
-            src: url(../../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
 
         }
     }
-    }
+    .learn-more{
+        padding: 5px 15px; 
+        background-color: #79ADDC;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 121px;
+        height: 35px;
+        margin-right: 10px;
+        margin-top: 50px;
+        text-align: center;
+        z-index: 99;
+    } }
     }
 
     
@@ -59,31 +70,16 @@
         z-index: 99px;
     }
 
-    .learn-more{
-        padding: 5px 15px; 
-        background-color: #79ADDC;
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        width: 121px;
-        height: 35px;
-        margin-top: -170px;
-        margin-left: 580px;
-        display: flex;
-        align-items: center;
-        justify-self: center;
-        z-index: 99;
-    }
     }
     .promo-info{
-        
         min-height: 304px;
-        // background-color: rgba(180, 180, 180, .5);
+        // background-color: cyan;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
 
         .WomanWithCamera{
-            background-image: url(../../images/WomanWithCamera.png);
+            background-image: url(../images/WomanWithCamera.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -92,9 +88,9 @@
 
         .callout2{
             color: white;
-            font-size: 60px;
+            font-size: 45px;
             text-align: center;
-            font-family: Inclusive-Sans;
+            font-family: Inclusive-Sans-Italic;
             margin-top: 48px;
 
         .price1{
@@ -106,12 +102,12 @@
             
         @font-face {
             font-family: Inclusive-Sans;
-            src: url(../../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
         }
 
         @font-face {
             font-family: Open-Sans;
-            src: url(../../fonts/Inclusive_Sans/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+            src: url(../fonts/Inclusive_Sans/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
         }
         }
         .firstButton{
@@ -129,7 +125,7 @@
         }
 
         .ManOnLake{
-            background-image: url(../../images/ManOnLake.png);
+            background-image: url(../images/ManOnLake.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -138,23 +134,23 @@
 
         .callout3{
             color: white;
-            font-size: 60px;
+            font-size: 45px;
             text-align: center;
-            font-family: Inclusive-Sans;
+            font-family: Inclusive-Sans-Italic;
             margin-top: 50px;
 
             .price2{
                 font-size: 30px;
-                font-family: Open-Sans;
+                font-family: Open-Sans-Italic-Condensed;
             }
 
         @font-face {
             font-family: Inclusive-Sans;
-            src: url(../../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
         }
         @font-face {
-            font-family: Open-Sans;
-            src: url(../../fonts/Inclusive_Sans/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+            font-family: Open-Sans-Italic-Condensed;
+            src: url(../fonts/Inclusive_Sans/Open_Sans/OpenSans_SemiCondensed-Italic.ttf);
         }
         
         }
@@ -173,7 +169,7 @@
         }
 
         .ManOnBeach{
-            background-image: url(../../images/ManOnBeach.png);
+            background-image: url(../images/ManOnBeach.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -184,19 +180,19 @@
             color: white;
             font-size: 40px;
             text-align: center;
-            font-family: Inclusive-Sans;
+            font-family: Inclusive-Sans-Italic;
             margin-top: 56px;
             
             
             .price3{
                 font-size: 30px;
                 margin-top: 4px;
-                font-family: Open-Sans;
+                font-family: Open-Sans-Italic-Condensed;
             }
 
         @font-face {
             font-family: Inclusive-Sans;
-            src: url(../../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Regular.ttf);
         }
 
         
@@ -211,10 +207,9 @@
             font-size: 15px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: white;
-            margin-top: 58px;
+            margin-top: 43px;
         }
          }
-
     }
     .booking{
         min-height: 800px;
@@ -285,7 +280,7 @@
 
         @font-face {
             font-family: Inclusive-Sans-Italic;
-            src: url(../../fonts/Inclusive_Sans/InclusiveSans-Italic.ttf);
+            src: url(../fonts/Inclusive_Sans/InclusiveSans-Italic.ttf);
         }
 
         }
@@ -301,6 +296,7 @@
                 font-size: 18px;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 border: 1px solid #79ADDC;
+                color: #000;
             }
 
             .title1{
@@ -401,11 +397,67 @@
                 border: 1px solid #79ADDC;
             }
         }
-        .booking-submit{
-             @include site-button;
-            
-        }
+    .booking-submit{
+    background-color: #79ADDC;
+    padding: 11px 21px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 37px; 
+       }
         }
         
     }
 }
+
+
+@media screen and (max-width: 800px) {
+    .promo-info {
+      flex-direction: column;
+
+      .WomanWithCamera{
+        margin-bottom: 20px;
+      }
+
+      .ManOnLake{
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .home {
+    .hero{
+        .Airplane{
+            max-width: 800px;
+           }
+
+           .learn-more{
+           
+           }
+        }
+
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .booking-wrapper {
+       flex-direction: column;
+      .top-form{
+        flex-direction: column;
+        
+      }
+      .bottom-form{
+        flex-direction: column;
+      }
+      
+      .booking-submit{
+        width: 800px;
+      }
+    }
+  }
+  
+  
